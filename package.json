@@ -1,5 +1,14 @@
 {
-    "private": true,
-    "workspaces": ["packages/*"]
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/fe/*",
+    "packages/fe/frontend-ts",
+    "packages/api/*"
+  ],
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "devDependencies": {
+    "lerna": "^x.x.x"
   }
-  
+}
