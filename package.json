@@ -3,7 +3,6 @@
   "workspaces": [
     "packages/*",
     "packages/fe/*",
-    "packages/fe/frontend-ts",
     "packages/api/*"
   ],
   "name": "my-monorepo",
