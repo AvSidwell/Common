@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  websocket-service:
+    build:
+      context: ./services/websocket-service
+    ports:
+      - "3001:3001"
+  webhook-service:
+    build:
+      context: ./services/webhook-service
+    ports:
+      - "3002:3002"
